@@ -14,7 +14,7 @@ proc processElvesAndCalories(s: Stream) : seq[int] =
 
 func sumNElements(c: seq[int], n: uint): int = 
     var sum = 0
-    for i in 0..<n: sum += (c[i])
+    for i in 0..<n: sum += c[i]
     return sum
 
 proc main() =
