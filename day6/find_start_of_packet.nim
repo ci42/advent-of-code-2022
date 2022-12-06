@@ -1,6 +1,6 @@
 import std/[algorithm, strutils, strscans, streams, os]
 
-proc isMarker(s: string) : bool =
+func isMarker(s: string) : bool =
     for c in s:
         if s.count(c) > 1: return false 
     return true
